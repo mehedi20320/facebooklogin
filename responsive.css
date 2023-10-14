@@ -1,0 +1,13 @@
+@media screen and(min-width:580px){
+    .logo{
+        width: 100%;
+        float: none;
+    }
+    .loginA{
+        width: 100%;
+        float: none;
+    }
+    .loginA form{
+        float: none;
+    }
+}

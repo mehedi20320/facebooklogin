@@ -1,0 +1,234 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif; 
+
+} 
+
+/*this is the start header*/
+
+
+.header{
+    background-color: #3258a8;
+    overflow: hidden;
+    padding: 10px 0px;
+}
+.container{
+    width:80%;
+    margin: auto;
+   
+}
+.logo{
+    width: 20%;
+    float: left;
+  
+}
+.logo img{
+    width: 250px;
+    margin-left: 30px;
+}
+.loginA{
+    width: 80%;
+    float: left;
+    color: white;
+   
+}
+.login{
+    float: left;
+}
+.loginA form{
+    float:right;
+}
+
+.loginA input,
+.loginA label{
+    display: block;
+}
+.loginA .email,
+.loginA .pass,
+.loginA .login{
+    float: left;
+    margin-right: 8px ;
+}
+
+.loginA .email{
+    font-size:12px ;
+}
+.loginA .email:hover{
+    color: black;
+}
+.loginA .pass{
+    font-size:12px ;
+}
+.loginA .pass:hover{
+    color: black;
+}
+.loginA input{
+    border:1px solid black;
+}
+.loginA .login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px 8px;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+    padding-top: 3px;
+    color: white;
+}
+/* end of the header */
+
+/* start sign up */
+.signupA{
+    background: linear-gradient(#ffffff, #D4D9E9);
+    padding:25px 0 ;
+}
+.signupA::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.leftside{
+    width: 55%;
+    float: left;
+
+}
+.rightside{
+    width: 45%;
+    float: left;
+}
+.leftside p{
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+}
+.leftside img{
+    width: 92%;
+}
+.rightside h1{
+    font-size: 33px;
+    margin: 0%;
+}
+.rightside h4{
+    font-size: 15px;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.rightside input[type=text],
+.rightside input[type=password]{
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px 10px;
+    font-size: 18px;
+    margin: 5px 0;
+}
+.fullname{
+    overflow: hidden;
+
+}
+.firstname{
+    width: 50%;
+    float:left
+}
+.lastname{
+    width:46%;
+    float: left;
+    margin-left: 4%;
+}
+.birthday{
+    overflow: hidden;
+
+}
+.birthday h4{
+    margin-top: 10px;
+    margin-bottom: 15px ;
+}
+.birthoption{
+    overflow: hidden;
+    float: left;
+    margin-right: 15px;
+    padding-top: 15px ;
+}
+.birthoption select{
+    border: 1px solid black;
+    padding: 10px;
+    float: left;
+}
+.birthlink p{
+    color: blue;
+    float: left;
+    font-size: 16px;
+    width: 180px;
+}
+.birthlink p:hover{
+    text-decoration: underline;
+}
+.gender label{
+    font-size: 20px;
+    font-weight: bold;
+}
+.textbox{
+    margin-bottom: 20px;
+}
+.textbox p span{
+    color: blue;
+}
+.textbox p span:hover{
+    text-decoration: underline;
+}
+.btn{
+    margin-bottom: 20px;
+}
+.btn input{
+    background: #268c60;
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px black ;
+    padding: 7px 30px;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn input:hover{
+    background: #268c90;
+}
+.last p span{
+    color: blue;
+}
+.last p span:hover{
+    text-decoration: underline;
+}
+@media screen and (max-width: 847px) {
+    .logo{
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .loginA{
+        width: 100%;
+        float: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid red;
+    }
+    .loginA form{
+        float: none;
+    }
+}
+@media screen and( max-width: 360px) {
+    .loginA .email,
+    .loginA .pass,
+    .loginA .login{
+        float: none;
+        margin: 0;
+    }
+}
